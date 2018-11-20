@@ -9,7 +9,7 @@ if ($_GET['search']) {
 $qr = new QR_BarCode(); 
 
 // create text QR code 
-$qr->url("https://plantal-samanaras.c9users.io/Gerador.php?search=".ucwords($_GET['search'])); 
+$qr->url("http://flora.ipvc.pt/Flora/workspace/Gerador.php?search=".ucwords($_GET['search'])); 
 
 // display QR code image
 $qr->qrCode(500);
